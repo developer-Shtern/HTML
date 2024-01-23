@@ -1,0 +1,58 @@
+.promo {
+    min-height: 966px;
+    padding: 48px 0 97px 0;
+    &__logo {
+        width: 114.912px;
+        height: 33.994px;   
+    }
+    nav {
+        min-width: 1046px;
+    }
+    ul {
+        padding-inline-start: 0px;
+    }
+    &__stain {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        &__desitnations {
+            padding-left: 222px;
+        }
+        &__hotels {
+            padding-left: 29.5px;
+        }
+        &__flights {
+            padding-left: 14.5px;
+        }
+        &__bookings{
+            padding-left: 23px;
+        }
+        &__login{
+            padding-left: 43px;
+        }
+        &__sign{
+            padding-left: 23.5px;
+        }
+        &__link {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            width: 102px;
+            height: 40px;
+            border-radius: 5px;
+            color: #212832;
+            font-size: 17px;
+            font-weight: 400;
+            text-decoration: none;
+            &:hover {
+                border: 1px solid var(--1st, #212832);              
+            }
+        }
+    }
+}    
