@@ -1,16 +1,7 @@
 .promo {
-    min-height: 966px;
-    padding: 48px 0 97px 0;
-    &__logo {
-        width: 114.912px;
-        height: 33.994px;   
-    }
-    nav {
-        display: flex;
-        min-width: 1046px;
-    }
-    ul {
-        padding-inline-start: 0px;
+    &_padding {
+        min-height: 966px;
+        padding: 48px 0 97px 0;
     }
     &__stain {
         position: absolute;
@@ -18,84 +9,118 @@
         top: 0;
         z-index: -1;
     }
-    .menu {
+    &__wrapper {
+        margin: 18px 110px 97px 150px;
+        position: relative;
+        height: 765px;
+        z-index: 1;
+    }
+    &__descr {
+        position: absolute;
+        width: 545px;
+        margin-top: 112px;
+        z-index: 2;
+    }
+    &__header {
+        color: #DF6951;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    &__subheader {
+        color: var(--1st, #181E4B);
+        font-family: Volkhov;
+        font-size: 84px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 89px; /* 105.952% */
+        letter-spacing: -3.36px;
+        margin-top: 24px;
+    }
+    &__stripes {
+        position: absolute;
+        z-index: -1;
+        top: 123px;
+        left: 243px;
+    }
+    &__text {
+        color: #5E6282;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 187.5% */
+        margin-top: 30px;
+    }
+    &__buttons {
+        margin-top: 34px;
         display: flex;
         align-items: center;
-        list-style-type: none;
-        height: 40px;
-        &__desitnations {
-            padding-left: 222px;
+    }
+    &__button-more {
+        margin-right: 44px;
+        width: 170px;
+        height: 60px;
+        border-radius: 10px;
+        background: var(--yellow, #F1A501);
+        color: var(--white, #FFF);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 0px 20px 35px 0px rgba(241,165,1,.15);          
         }
-        &__hotels {
-            padding-left: 29.5px;
+    }
+    &__button-circle {
+        margin-right: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%; 
+        background-color: #DF6951;
+        border: none;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 0px 20px 35px 0px rgba(243, 82, 1, 0.15);          
         }
-        &__flights {
-            padding-left: 14.5px;
-        }
-        &__bookings {
-            padding-left: 23px;
-        }
-        &__login {
-            padding-left: 43px;
-        }
-        &__sign {
-            padding-left: 23.5px;
-        }
-        &__en {
-            padding-left: 42px;
-        }
-        &__link {
-            display: flex;
-            justify-content: center;
-            align-items: center; 
-            width: 102px;
-            height: 40px;
-            border-radius: 5px;
-            color: #212832;
-            font-size: 17px;
-            font-weight: 400;
-            text-decoration: none;
-            &:hover {
-                border: 1px solid var(--1st, #212832);              
-            }
-        }
-        &-switch {
-            position: relative;
-        }
-        &-language {
-            display: flex;
-            align-items: center;
-            font-size: 17px;
-            font-weight: 400;
-            cursor: pointer;
-            &:after {
-                content: '';
-                height: 4.5px; 
-                width: 4.5px; 
-                border-bottom: 1px solid #212832; 
-                border-right: 1px solid #212832; 
-                transform: rotate(45deg); 
-                margin: 5px; 
-                margin-bottom: 8px;
-            }
-        }
-        &-dropdown {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 41%;
-            background-color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        
-        &-switch:hover .menu-dropdown {
-            display: block;        
-        }
-        &-option {
-            cursor: pointer;
-            font-size: 17px;
-            font-weight: 400;           
-        }
+    }
+    &__button-triangle {
+        width: 0;
+        height: 0;
+        border-top: 7.5px solid transparent;
+        border-left: 15px solid white;
+        border-bottom: 7.5px solid transparent;
+        transform: translateX(15%);
+    }
+    &__button-text {
+        width: 92px;
+        height: 26px;
+        border: none;
+        background-color: unset;
+        color: var(--text-color, #686D77);
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+    }
+    &__airplane {
+        position: absolute;
+        right: 469px;
+        top: 57px;
+    }
+    &__airplane-2 {
+        position: absolute;
+        right: -17px;
+        top: 105px;
+    }
+    &__woomen {
+        position: absolute;
+        max-width: 765px;
+        right: 0;
     }
 }    

@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    align-items: center;
+    &_margin {
+        margin-left: 141px;
+    }
+    &__logo {
+        width: 114.912px;
+        img {
+            height: 100%; 
+        }
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        font-size: 16px;
+        font-weight: 400;
+        &__desitnations {
+            padding-left: 222px;
+        }
+        &__hotels {
+            padding-left: 29.5px;
+        }
+        &__flights {
+            padding-left: 14.5px;
+        }
+        &__bookings {
+            padding-left: 23px;
+        }
+        &__login {
+            padding-left: 43px;
+        }
+        &__sign {
+            padding-left: 23.5px;
+        }
+        &__en {
+            padding-left: 42px;
+        }
+        &__link {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            width: 102px;
+            height: 40px;
+            border-radius: 5px;
+            color: #212832;
+            text-decoration: none;
+            &:hover {
+                border: 1px solid var(--1st, #212832);              
+            }
+        }
+        &_switch {
+            position: relative;
+        }
+        &__language {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            &:after {
+                content: '';
+                height: 4.5px; 
+                width: 4.5px; 
+                border-bottom: 1px solid #212832; 
+                border-right: 1px solid #212832; 
+                transform: rotate(45deg); 
+                margin: 5px; 
+                margin-bottom: 8px;
+            }
+        }
+        &__dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 41%;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        &_switch:hover .menu__dropdown {
+            display: block;        
+        }
+        &__option {
+            cursor: pointer;          
+        }
+    }
+}

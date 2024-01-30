@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>    
-    <section class="promo">  
+    <section class="promo promo_padding">  
         <div class="promo__stain">
-            <svg xmlns="http://www.w3.org/2000/svg" width="840" height="864" viewBox="0 0 704 724" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="840" height="740" viewBox="0 0 704 724" preserveAspectRatio="none meet" fill="none">
                 <path d="M22.3069 222C-18.0931 153.2 5.4736 13.3333 22.3069 -48L701.807 -149L766.307 122.5L727.807 723.5C649.14 724.5 473.707 717 401.307 679C310.807 631.5 351.807 555 276.807 515C201.807 475 244.807 369.5 218.807 329.5C192.807 289.5 72.8069 308 22.3069 222Z" fill="#FFF1DA"/>
             </svg>
         </div>    
         <div class="container">
-            <header>
-                <a href="#" class="promo__logo">
+            <header class="header header_margin">
+                <a href="#" class="header__logo">
                     <img src="icons/Logo.svg" alt="logo">
                 </a>
                 <nav>
@@ -28,15 +28,33 @@
                         <li class="menu__bookings"><a href="#" class="menu__link">Bookings</a></li>
                         <li class="menu__login"><a href="#" class="menu__link">Login</a></li>
                         <li class="menu__sign"><a href="#" class="menu__link">Sign up</a></li>
-                        <li class="menu__en menu-switch">
-                            <div class="menu-language">EN</div>
-                            <div class="menu-dropdown">
-                                <div class="menu-option">RU</div>
+                        <li class="menu__en menu_switch">
+                            <div class="menu__language">EN</div>
+                            <div class="menu__dropdown">
+                                <div class="menu__option">RU</div>
                             </div>   
                         </li>
                     </ul>
                 </nav>
             </header>
+            <div class="promo__wrapper">
+                <div class="promo__descr">
+                    <h1 class="promo__header">Best Destinations around the world</h1>
+                    <h2 class="promo__subheader">Travel, enjoy and live a new and full life</h2>
+                    <img src="icons/Decore.png" alt="stripes" class="promo__stripes">
+                    <div class="promo__text">Built Wicket longer admire do barton vanity itself do in it. <br> Preferred to sportsmen it engrossed listening. Park gate <br> sell they west hard for the.</div>
+                    <div class="promo__buttons">
+                        <button data-modal="find-out-more" class="promo__button-more">Find out more</button>
+                        <button data-modal="play" class="promo__button-circle">
+                            <div class="promo__button-triangle"></div>
+                        </button>
+                        <button data-modal="play-demo" class="promo__button-text">Play Demo</button>
+                    </div>
+                </div>
+                <img src="icons/plane.svg" alt="airplane" class="promo__airplane">
+                <img src="icons/plane.svg" alt="airplane" class="promo__airplane-2">
+                <img src="img/woomen.png" alt="woomen" class="promo__woomen">
+            </div>
         </div>
     </section>  
 </body>

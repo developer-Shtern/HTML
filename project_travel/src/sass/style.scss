@@ -1,25 +1,16 @@
 * {
-    box-sizing: border-box
-}
-* {
-    font-family: 'Google Sans';
-}
-body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-header {
-    display: flex;
-    align-items: center;
-    height: 40px;
-    width: 1161px;
-    padding-left: 141px;
+* {
+    font-family: 'Poppins';
 }
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
 @import 'blocks/promo';
+@import 'blocks/header';
 @import 'libs/font';
