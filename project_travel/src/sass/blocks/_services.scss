@@ -11,7 +11,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 274px;
+        margin-left: 312px;
 
     }
     .title {
@@ -31,24 +31,28 @@
     }
     &__cards {
         margin-top: 68px;
-        width: 1098px;
+        width: 1180px;
         display: flex;
         justify-content: space-between;
     }
     &__card {
+        position: relative;
         width: 267px;
         height: 314px;
         padding: 40.5px 42.5px;
         display: flex;
         flex-direction: column;
         align-items: center;
-
         flex-shrink: 0;
         border-radius: 36px;
         background: var(--white, #FFF);
         &:hover {
             box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);  
         }  
+        &:hover .services__spot {
+            background: #DF6951;
+            z-index: -1;
+        }
     }
     &__wrapper-icon {
         width: 92px;
@@ -72,5 +76,14 @@
         font-weight: 400;
         line-height: 26px; /* 162.5% */
         margin-top: 15px;
+    }
+    &__spot {
+        position: absolute;
+        left: -35px;
+        bottom: -33px;
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        border-radius: 30px 0px 10px 0px;
     }
 }
