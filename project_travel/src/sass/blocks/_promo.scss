@@ -1,8 +1,6 @@
 .promo {
-    &_padding {
-        min-height: 966px;
-        padding: 48px 0 97px 0;
-    }
+    // min-height: 966px;
+    padding-top: 48px;
     &__stain {
         position: absolute;
         right: 0;
@@ -10,7 +8,7 @@
         z-index: -1;
     }
     &__wrapper {
-        margin: 18px 110px 97px 150px;
+        margin: 18px 110px 0 150px;
         position: relative;
         height: 765px;
         z-index: 1;
