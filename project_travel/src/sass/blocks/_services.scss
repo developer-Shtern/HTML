@@ -1,10 +1,17 @@
 .services {
     padding-top: 97px;
     &__wrapper {
+        position: relative;
         margin: 0 58px 0 116px;
         height: 525px;
         display: flex;
         flex-direction: column;
+    }
+    &__pluses {
+        position: absolute;
+        right: 0;
+        width: 153px;
+        height: 166px;
     }
     .titles {
         max-width: 547px;
@@ -48,11 +55,11 @@
         background: var(--white, #FFF);
         &:hover {
             box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);  
+            .services__spot {
+                background: #DF6951;
+                z-index: -1;
+            }
         }  
-        &:hover .services__spot {
-            background: #DF6951;
-            z-index: -1;
-        }
     }
     &__wrapper-icon {
         width: 92px;
