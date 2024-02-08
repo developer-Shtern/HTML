@@ -44,8 +44,10 @@
             border-radius: 5px;
             color: #212832;
             text-decoration: none;
+            cursor: pointer;
             &:hover {
-                border: 1px solid var(--1st, #212832);              
+                border: 1px solid var(--1st, #212832);  
+                cursor: pointer;            
             }
         }
         &_switch {

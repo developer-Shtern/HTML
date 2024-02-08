@@ -36,7 +36,7 @@
         letter-spacing: -3.36px;
         margin-top: 24px;
     }
-    &__stripes {
+    &__decore {
         position: absolute;
         z-index: -1;
         top: 123px;
@@ -83,7 +83,8 @@
         border: none;
         cursor: pointer;
         &:hover {
-            box-shadow: 0px 20px 35px 0px rgba(243, 82, 1, 0.15);          
+            box-shadow: 0px 20px 35px 0px rgba(243, 82, 1, 0.15); 
+            cursor: pointer;         
         }
     }
     &__button-triangle {

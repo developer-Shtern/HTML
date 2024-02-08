@@ -1,0 +1,77 @@
+.destinations {
+    padding-top: 123px;
+    &__wrapper {
+        margin: 0 165px 0 173px;
+        height: 617px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__items {
+        position: relative;
+        max-width: 1039px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &__decore {
+        position: absolute;
+        right: -62px;
+        bottom: 47px;
+        width: 96px;
+        height: 252px;
+        stroke-width: 1px;
+        stroke: var(--text-2, #84829A);
+    }
+    &__item {
+        position: relative;
+        width: 314px;
+        height: 457px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        cursor: pointer;
+        &:hover {  
+            background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+            box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+            .destinations__descr {
+                background: var(--white, #FFF);
+            }
+            .destinations__city-price {
+                display: flex;
+                justify-content: space-between;
+            }
+            .destinations__navigation-days {
+                display: flex;
+                margin-top: 15px;
+            }
+        }
+    }
+    &__img {
+        border-radius: 24px;
+    }
+    &__descr{
+        position: absolute;
+        bottom: 0;
+        width: 315px;
+        height: 130px;
+        border-radius: 0px 0px 24px 24px;
+        padding: 27px 23px 36px 23px;
+
+        color: var(--TEXT-CLR, #5E6282);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    &__city-price {
+        display: none;
+    }
+    &__navigation-days {
+        display: none;
+    }
+    &__days {
+        font-size: 16px;
+    }
+    &__navigation-img {
+        margin-right: 14px;
+    }
+}
+

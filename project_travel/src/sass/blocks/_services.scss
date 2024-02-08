@@ -13,36 +13,13 @@
         width: 153px;
         height: 166px;
     }
-    .titles {
-        max-width: 547px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 312px;
-
-    }
-    .title {
-        color: var(--TEXT-CLR, #5E6282);
-        font-size: 18px;
-        font-weight: 500;
-        line-height: normal;
-    }
-    .subtitle {
-        color: var(--3rd, #14183E);
-        font-family: Volkhov;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: capitalize;
-    }
-    &__cards {
+    &__items {
         margin-top: 68px;
         width: 1180px;
         display: flex;
         justify-content: space-between;
     }
-    &__card {
+    &__item {
         position: relative;
         width: 267px;
         height: 314px;
