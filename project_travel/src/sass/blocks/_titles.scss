@@ -8,6 +8,10 @@
         max-width: 418px;
         margin-left: 318px;
     }
+    &_steps {
+        margin-left: 0px;
+        display: block;
+    }
 
 }
 .title {
@@ -24,4 +28,7 @@
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    &_steps {
+        margin-top: 15px;
+    }
 }
