@@ -1,12 +1,13 @@
 .steps {
     padding-top: 186px;
     &__wrapper {
+        position: relative;
         margin: 0 189px 0 140px;
-        height: 492px;
+        height: 692px;
         display: flex;
         flex-direction: column;
     }
-    &__block {
+    &__item {
         display: flex;
         width: 395px;
         margin-top: 48px;
@@ -31,13 +32,12 @@
             background-color: #006380;
         }
     }
-    &__box {
+    &__descr {
 
     }
     &__subtitle {
         color: var(--TEXT-CLR, #5E6282);
         font-size: 16px;
-        font-style: normal;
         font-weight: 700;
         line-height: 124.5%; /* 19.92px */
     }
