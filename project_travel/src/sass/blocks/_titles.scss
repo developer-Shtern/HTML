@@ -19,6 +19,9 @@
     font-size: 18px;
     font-weight: 500;
     line-height: normal;
+    &-uppercase {
+        text-transform: uppercase;
+    }
 }
 .subtitle {
     color: var(--3rd, #14183E);
@@ -30,5 +33,8 @@
     text-transform: capitalize;
     &_steps {
         margin-top: 15px;
+    }
+    &_testimonials {
+        margin-top: 5px;
     }
 }

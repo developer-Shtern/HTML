@@ -3,9 +3,6 @@
     &__wrapper {
         position: relative;
         margin: 0 189px 0 140px;
-        height: 692px;
-        display: flex;
-        flex-direction: column;
     }
     &__item {
         display: flex;
@@ -31,9 +28,6 @@
         &_blue {
             background-color: #006380;
         }
-    }
-    &__descr {
-
     }
     &__subtitle {
         color: var(--TEXT-CLR, #5E6282);
