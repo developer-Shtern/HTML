@@ -1,0 +1,25 @@
+.airlines {
+    padding-top: 96px;
+    padding-bottom: 200px;
+    &__wrapper {
+        margin: 0px 183px 0px 183px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        width: 241px;
+        height: 86px;
+        cursor: pointer;
+        filter: grayscale(100%);
+        &:hover {
+            box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0), 0 8px 7px 0 rgba(0, 0, 0, 0.01), 0 20px 13px 0 rgba(0, 0, 0, 0.01), 0 39px 25px 0 rgba(0, 0, 0, 0.01), 0 65px 47px 0 rgba(0, 0, 0, 0.02), 0 100px 80px 0 rgba(0, 0, 0, 0.02);
+            background: #fff;
+            filter: grayscale(10%);
+        }
+    }
+}
