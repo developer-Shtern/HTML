@@ -1,0 +1,91 @@
+.footer {
+    padding-top: 166px;
+    padding-bottom: 200px;
+    &__wrapper {
+        padding: 0px 186px 0px 186px;
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        font-weight: 500;
+        font-size: 44px;
+        color: #181e4b;
+        text-decoration: none;
+    }
+    &__logo-desc {
+        margin-top: 19px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 125%;
+        color: #5e6282;
+    }
+    &__links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 21px;
+    }
+    &__sub {
+        font-weight: 700;
+        line-height: 125%;
+        color: #080809;
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+    &__link {
+        font-weight: 500;
+        line-height: 125%;
+        font-size: 18px;
+        color: #5e6282;
+        text-decoration: none;
+        margin-bottom: 12px;
+    }
+    &__social-box {
+        width: 214px;
+        height: 147px;
+    }
+    &__social {
+        display: flex;
+    }
+    &__social-link {
+        width: 177px;
+        height: 61px;
+        text-decoration: none;
+    }
+    &__social-icon {
+        width: 61px;
+        height: 61px;
+    }
+    &__social-sub {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 125%;
+        letter-spacing: 0.01em;
+        color: #5e6282;
+        margin-top: 26px;
+    }
+    &__mobile {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &__mobile-link {
+        margin-top: 16px;
+    }
+    &__reserved-link {
+        margin-top: 86px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 125%;
+        color: #5e6282
+    }
+    &__mail {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 125%;
+        color: #5e6282
+    }
+}
