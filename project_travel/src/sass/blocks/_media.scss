@@ -1,0 +1,91 @@
+@media (max-width: 1200px) {
+    .promo {
+        min-height: 700px;
+        &__stain {
+           svg {
+            width: 500px;
+            height: 600px;
+           } 
+        }
+        .header {
+            padding: 0px 76px;
+            &__logo { 
+                img {
+                    max-width: 101px;
+                    height: 100%; 
+                }
+            }
+        }
+        .menu {
+            font-size: 14px;
+            width: 650px;
+            &__desitnations {
+                padding-left: 104px;
+            }
+        }
+        &__descr {
+            width: 460px;
+            margin: 97px 0px 0px 76px;
+        }
+        &__header {
+            font-size: 17px;
+        }
+        &__subheader {
+            font-size: 70px;
+            line-height: 74px; 
+            margin-top: 20px;
+        }
+        &__decore {
+            width: 320px;
+            height: 10px;
+            top: 115px;
+            left: 201px;
+        }
+        &__text {
+            font-size: 13px;
+            line-height: 25px;
+            margin-top: 25px;
+        }
+        &__buttons {
+            margin-top: 28px;
+        }
+        &__button-more {
+            font-size: 15px;
+            width: 141px;
+            height: 50px;
+            margin-right: 36px;
+        }
+        &__button-circle {
+            width: 43px;
+            height: 43px;
+            margin-right: 17px;
+        }
+        &__button-triangle {
+            border-top: 6.2px solid rgba(0,0,0,0);
+            border-left: 12px solid #fff;
+            border-bottom: 6.2px solid rgba(0,0,0,0);
+        }
+        &__button-text {
+            font-size: 14px;
+        }
+        &__woomen {
+            width: 634px;
+        }
+        &__airplane {
+            width: 94px;
+            right: 410px;
+            top: 130px;
+        }
+        &__airplane-2 {
+            width: 94px;
+            right: 13px;
+            top: 172px;
+        }
+    }
+    //======================
+
+    .services {
+        padding-top: 80px;
+
+    }
+}

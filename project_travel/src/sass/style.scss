@@ -7,8 +7,9 @@
     font-family: 'Poppins';
 }
 .container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 @import 'blocks/promo';
@@ -23,4 +24,5 @@
 @import 'blocks/airlines';
 @import 'blocks/subscribe';
 @import 'blocks/footer';
+@import 'blocks/media';
 @import 'libs/font';

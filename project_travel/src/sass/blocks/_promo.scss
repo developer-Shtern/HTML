@@ -1,17 +1,14 @@
 .promo {
-    // min-height: 966px;
+    min-height: 966px;
     padding-top: 48px;
+
+    position: relative;
+    width: 100%;
     &__stain {
         position: absolute;
         right: 0;
         top: 0;
         z-index: -1;
-    }
-    &__wrapper {
-        margin: 18px 110px 0 150px;
-        position: relative;
-        height: 765px;
-        z-index: 1;
     }
     &__descr {
         position: absolute;
@@ -23,14 +20,12 @@
         color: #DF6951;
         font-size: 20px;
         font-weight: 700;
-        line-height: normal;
         text-transform: uppercase;
     }
     &__subheader {
         color: var(--1st, #181E4B);
         font-family: Volkhov;
         font-size: 84px;
-        font-style: normal;
         font-weight: 700;
         line-height: 89px; /* 105.952% */
         letter-spacing: -3.36px;
@@ -45,7 +40,6 @@
     &__text {
         color: #5E6282;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 30px; /* 187.5% */
         margin-top: 30px;
@@ -96,30 +90,25 @@
         transform: translateX(15%);
     }
     &__button-text {
-        width: 92px;
-        height: 26px;
         border: none;
         background-color: unset;
         color: var(--text-color, #686D77);
         font-size: 17px;
-        font-style: normal;
         font-weight: 400;
-        line-height: normal;
         cursor: pointer;
     }
     &__airplane {
         position: absolute;
-        right: 469px;
-        top: 57px;
+        right: 495px;
+        top: 139px;
     }
     &__airplane-2 {
         position: absolute;
-        right: -17px;
-        top: 105px;
+        right: 16px;
+        top: 193px;
     }
     &__woomen {
         position: absolute;
-        max-width: 765px;
         right: 0;
     }
 }    

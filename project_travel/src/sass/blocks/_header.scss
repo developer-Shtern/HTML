@@ -1,54 +1,36 @@
 .header {
     display: flex;
     align-items: center;
-    margin-left: 141px;
-    &__logo {
-        width: 114.912px;
+    justify-content: space-between;
+    &__logo { 
         img {
+            max-width: 114.912px;
             height: 100%; 
         }
     }
     .menu {
+        width: 850px; 
         display: flex;
         align-items: center;
+        justify-content: space-between;
         list-style-type: none;
         font-size: 16px;
         font-weight: 400;
-        &__desitnations {
-            padding-left: 222px;
-        }
-        &__hotels {
-            padding-left: 29.5px;
-        }
-        &__flights {
-            padding-left: 14.5px;
-        }
-        &__bookings {
-            padding-left: 23px;
-        }
-        &__login {
-            padding-left: 43px;
-        }
-        &__sign {
-            padding-left: 23.5px;
-        }
-        &__en {
-            padding-left: 42px;
-        }
-        &__link {
+        &__item {
             display: flex;
             justify-content: center;
             align-items: center; 
-            width: 102px;
+            width: 15%;
             height: 40px;
             border-radius: 5px;
-            color: #212832;
-            text-decoration: none;
             cursor: pointer;
             &:hover {
-                border: 1px solid var(--1st, #212832);  
-                cursor: pointer;            
+                border: 1px solid var(--1st, #212832);               
             }
+        }
+        &__link {
+            color: #212832;
+            text-decoration: none;
         }
         &_switch {
             position: relative;
@@ -72,17 +54,18 @@
             display: none;
             position: absolute;
             top: 100%;
-            left: 41%;
+            right: 10%;
             background-color: #fff;
             padding: 10px;
             border-radius: 5px;
+            cursor: pointer;
+            &:hover {
+                display: block;
+            }
         }
-        
         &_switch:hover .menu__dropdown {
             display: block;        
         }
-        &__option {
-            cursor: pointer;          
-        }
+        
     }
 }
