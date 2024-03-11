@@ -1,36 +1,20 @@
-.titles {
-    max-width: 547px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 312px;
-    &_selling {
-        max-width: 418px;
-        margin-left: 318px;
-    }
-    &_steps {
-        margin-left: 0px;
-        display: block;
-    }
-
-}
 .title {
     color: var(--TEXT-CLR, #5E6282);
     font-size: 18px;
     font-weight: 500;
-    line-height: normal;
-    &-uppercase {
-        text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
+    &_capitalize {
+        text-transform: capitalize;
     }
 }
 .subtitle {
     color: var(--3rd, #14183E);
     font-family: Volkhov;
     font-size: 50px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
+    text-align: center;
     &_steps {
         margin-top: 15px;
     }

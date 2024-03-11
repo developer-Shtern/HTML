@@ -1,21 +1,14 @@
 .services {
     padding-top: 97px;
-    &__wrapper {
-        position: relative;
-        margin: 0 58px 0 116px;
-        height: 525px;
-        display: flex;
-        flex-direction: column;
-    }
     &__pluses {
         position: absolute;
-        right: 0;
+        right: -60px;
         width: 153px;
         height: 166px;
     }
     &__items {
         margin-top: 68px;
-        width: 1180px;
+        max-width: 1180px;
         display: flex;
         justify-content: space-between;
     }
@@ -37,10 +30,6 @@
                 z-index: -1;
             }
         }  
-    }
-    &__wrapper-icon {
-        width: 92px;
-        height: 78px;
     }
     &__subtitle {
         font-family: 'Open Sans';
