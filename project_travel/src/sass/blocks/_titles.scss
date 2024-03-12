@@ -7,6 +7,11 @@
     &_capitalize {
         text-transform: capitalize;
     }
+    &_steps {
+        text-align: left;
+        margin-left: 50px;
+        text-transform: none;
+    }
 }
 .subtitle {
     color: var(--3rd, #14183E);
@@ -17,6 +22,8 @@
     text-align: center;
     &_steps {
         margin-top: 15px;
+        margin-left: 50px;
+        text-align: left;
     }
     &_testimonials {
         margin-top: 5px;

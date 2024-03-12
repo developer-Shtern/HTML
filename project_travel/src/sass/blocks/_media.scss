@@ -98,7 +98,6 @@
             height: 137px;
         }
         &__items {
-            max-width: 1000px;
             margin: auto;
             margin-top: 56px;
             display: flex;
@@ -133,7 +132,6 @@
 
     .destinations {
         padding-top: 100px;
-        padding-bottom: 200px;
         .title {
             font-size: 15px;
         }
@@ -170,6 +168,121 @@
         &__days {
             font-size: 13px;
         }
-        
+    }
+    //======================
+
+    .steps {
+        padding-bottom: 200px;
+        .title_steps {
+            font-size: 15px;
+            margin-left: 11%;
+        }
+        .subtitle_steps {
+            font-size: 41px;
+            margin-left: 11%;
+        }
+        &__item {
+            margin-left: 11%;
+        }
+        &__rectangle {
+            width: 40px;
+            height: 40px;
+        }
+        &__icon {
+            width: 20px;
+            height: 20px;
+        }
+        &__subtitle {
+            font-size: 13px;
+        }
+        &__text {
+            font-size: 13px;
+        }
+        .card {
+            right: 12%;
+            border-radius: 22px;
+            padding: 17px 20px 26px 20px;
+            width: 307px;
+            height: 332px;
+            &__img {
+                width: 266px;
+                height: auto;
+            }
+            &__subtitle {
+                margin-top: 22px;
+                font-size: 13px;
+            }
+            &__date {
+                font-size: 12px;
+                margin-top: 11px;
+                span {
+                    &:after {
+                        height: 13px;
+                        margin: 0px 9px 0px 3px;
+                    }
+                }
+            }
+            &__navigation {
+                width: 100px;
+                margin-top: 23px;
+            }
+            &__navigation-item {
+                height: 30px;
+                width: 30px;
+            }
+            &__navigation-icon {
+                width: 12px;
+                height: 12px;
+            }
+            &__footer {
+                margin-top: 9px;
+            }
+            &__footer-text {
+                font-size: 12px;
+                &:before {
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 12px;
+                }
+            }
+            &__footer-heart {
+                background-image: url(../icons/steps/Heart_grey_992.svg);
+                background-repeat: no-repeat;
+                margin-left: 106px;
+                &:hover {
+                    background-image: url("../icons/steps/Heart_992.svg");
+                }
+            }
+            &__circle-img {
+                right: 37px;
+                top: 179px;
+                width: 37px;
+                height: 37px;
+            }
+            &__window {
+                right: -108px;
+                border-radius: 13px;
+                width: 197px;
+                height: 96px;
+                padding: 12px 18px 16px 61px;
+            }
+            &__window-subtitle {
+                font-size: 10px;
+            }
+            &__window-title {
+                font-size: 13px;
+                margin-top: 4px;
+            }
+            &__window-text {
+                margin-top: 10px;
+                font-size: 10px;
+                letter-spacing: normal;
+            }
+            &__window-line {
+                margin-top: 7px;
+                background-image: url(../icons/steps/Line_992.svg);
+                background-repeat: no-repeat;
+            }
+        }
     }
 }

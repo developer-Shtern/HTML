@@ -1,13 +1,10 @@
 .steps {
     padding-top: 186px;
-    &__wrapper {
-        position: relative;
-        margin: 0 189px 0 140px;
-    }
+    padding-bottom: 200px;
     &__item {
         display: flex;
-        width: 395px;
         margin-top: 48px;
+        margin-left: 50px;
         &_first {
             margin-top: 31px;
         }
@@ -17,11 +14,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 47px;
+        width: 48px;
         height: 48px;
         margin-right: 21px;
         border-radius: 13px;
-        background-color: #F0BB1F;
+        &_yellow {
+            background-color: #F0BB1F;
+        }
         &_red {
             background-color: #F15A2B;
         }
