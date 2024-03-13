@@ -1,12 +1,9 @@
 .testimonials {
     padding-top: 171px;
-    &__wrapper {
-        position: relative;
-        margin: 0px 89px 0px 186px;
-        height: 331px;
-    }
+    padding-bottom: 200px;
     &__circles {
         margin-top: 75px;
+        margin-left: 50px;
         display: flex;
         justify-content: space-between;
         width: 80px;

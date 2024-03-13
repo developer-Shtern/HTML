@@ -7,10 +7,15 @@
     &_capitalize {
         text-transform: capitalize;
     }
-    &_steps {
+    &_left {
         text-align: left;
         margin-left: 50px;
         text-transform: none;
+    }
+    &_left-uppercase {
+        text-transform: uppercase;
+        text-align: left;
+        margin-left: 50px;
     }
 }
 .subtitle {
@@ -20,7 +25,7 @@
     font-weight: 700;
     text-transform: capitalize;
     text-align: center;
-    &_steps {
+    &_left {
         margin-top: 15px;
         margin-left: 50px;
         text-align: left;

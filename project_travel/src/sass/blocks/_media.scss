@@ -172,12 +172,11 @@
     //======================
 
     .steps {
-        padding-bottom: 200px;
-        .title_steps {
+        .title_left {
             font-size: 15px;
             margin-left: 11%;
         }
-        .subtitle_steps {
+        .subtitle_left {
             font-size: 41px;
             margin-left: 11%;
         }
@@ -282,6 +281,72 @@
                 margin-top: 7px;
                 background-image: url(../icons/steps/Line_992.svg);
                 background-repeat: no-repeat;
+            }
+        }
+    }
+    //======================
+
+    .testimonials {
+        padding-bottom: 200px;
+        .title_left-uppercase {
+            font-size: 15px;
+            margin-left: 11%;
+        }
+        .subtitle_left {
+            font-size: 41px;
+            margin-left: 11%;
+        }
+        &__circles {
+            width: 66px;
+            height: 10px;
+            margin-top: 62px;
+            margin-left: 11%;
+        }
+        &__circle {
+            width: 10px;
+            height: 10px;
+        }
+        .testimonials-block {
+            width: 498px;
+            height: 282px;
+            right: 28px;
+            &__img {
+                width: 51px;
+                height: 51px;
+            }
+            &__box {
+                border-radius: 7px;
+                width: 377px;
+                height: 183px;
+                top: 26px;
+                margin-left: 28px;
+                padding: 21px 51px 25px 25px;
+                &_bottom {
+                    top: 93px;
+                    padding-top: 95px;
+                    margin-left: 66px;
+                }
+            }
+            &__text {
+                font-size: 12px;
+            }
+            &__name {
+                font-size: 13px;
+            }
+            &__city  {
+                font-size: 10px;
+            }
+            &__arrow-top {
+                width: 7px;
+                height: 7px;
+                top: 116px;
+                right: 10px;
+            }
+            &__arrow-bottom {
+                width: 7px;
+                height: 7px;
+                bottom: 116px;
+                right: 10px;
             }
         }
     }
