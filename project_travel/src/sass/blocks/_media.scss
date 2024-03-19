@@ -287,7 +287,7 @@
     //======================
 
     .testimonials {
-        padding-bottom: 200px;
+        padding-top: 141px;
         .title_left-uppercase {
             font-size: 15px;
             margin-left: 11%;
@@ -348,6 +348,77 @@
                 bottom: 116px;
                 right: 10px;
             }
+        }
+    }
+    //======================
+
+    .airlines {
+        &__link {
+            border-radius: 8%;
+            width: 200px;
+            height: 71px;
+        }
+        &__img {
+            width: 58%;
+            height: auto;
+        }
+    }
+    //======================
+
+    .subscribe {
+        padding-bottom: 200px;
+        &__wrapper {
+            width: 85%;
+            height: 327px;
+            padding-top: 58px;
+            border-radius: 107px 17px 17px 17px;
+        }
+        &__subtitle {
+            font-size: 26px;
+            line-height: 136%;
+            font-weight: 500;
+
+        }
+        &__divorces {
+            width: 398px;
+            height: auto;
+        }
+        &__divorces-right {
+            width: 219px;
+            height: auto;
+        }
+        &__arrow {
+            width: 53px;
+            height: auto;
+        }
+        &__pluses {
+            width: 109px;
+            height: auto;
+            right: -65px;
+            bottom: -51px;
+        }
+        &__form {
+            margin: 0 auto;
+            margin-top: 61px;
+            width: 522px;
+            input {
+                border-radius: 8px;
+                width: 349px;
+                height: 56px;
+                font-size: 12px;
+                padding-left: 55px;
+            }
+        }
+        &__mail-img {
+            left: 26px;
+        }
+        &__button {
+            border-radius: 8px;
+            width: 149px;
+            height: 56px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-left: 20px;
         }
     }
 }

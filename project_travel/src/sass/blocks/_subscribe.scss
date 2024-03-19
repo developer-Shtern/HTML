@@ -1,13 +1,13 @@
 .subscribe {
     padding-top: 124px;
+    padding-bottom: 200px;
     &__wrapper {
         position: relative;
+        margin: 0 auto;
         padding-top: 79px;
-        margin: 0px 135px 0px 135px;
         border-radius: 129px 20px 20px 20px;
-        width: 1170px;
+        width: 95%;
         height: 407px;
-        background: #dfd7f9;
         background-color: rgba(223, 215, 249, 0.2);
     }
     &__subtitle {
@@ -40,8 +40,8 @@
     }
     &__form {
         position: relative;
+        margin: 0 auto;
         margin-top: 74px;
-        margin-left: 252px;
         width: 630px;
         display: flex;
         align-items: center;
