@@ -366,7 +366,6 @@
     //======================
 
     .subscribe {
-        padding-bottom: 200px;
         &__wrapper {
             width: 85%;
             height: 327px;
@@ -419,6 +418,65 @@
             font-weight: 600;
             font-size: 14px;
             margin-left: 20px;
+        }
+    }
+    //======================
+
+    .footer {
+        &__logo {
+            font-size: 37px;
+        }
+        &__logo-desc {
+            margin-top: 16px;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 125%;
+        }
+        &__sub {
+            font-size: 17px;
+            margin-bottom: 25px;
+        }
+        &__link {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        &__social-box {
+            width: 178px;
+            height: 122px;
+        }
+        &__social {
+            width: 155px;
+        }
+        &__social-link {
+            width: 42px;
+            height: 42px;
+            text-decoration: none;
+        }
+        &__social-icon {
+            &_facebook {
+                width: 7px;
+                height: 13px;
+            }
+            &_instagram {
+                width: 14px;
+                height: 14px;
+            }
+            &_twitter {
+                width: 14px;
+                height: 11px;
+            }
+        }
+        &__social-sub {
+            font-size: 16px;
+            margin-top: 14px;
+        }
+        &__mobile-icon {
+            width: 86px;
+            height: auto;
+        }
+        &__reserved-link {
+            margin-top: 71px;
+            font-size: 12px;
         }
     }
 }
