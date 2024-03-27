@@ -595,4 +595,116 @@
             display: none;
         }
     }
+    .destinations {
+        padding-top: 88px;
+        min-height: 600px;
+        .title_capitalize {
+            font-size: 12px;
+        }
+        .subtitle {
+            font-size: 32px;
+        }
+        &__items {
+            margin-top: 47px;
+            max-width: 776px;
+        }
+        &__decore {
+            width: 61px;
+            height: auto;
+            right: 5px;
+        }
+        &__item {
+            width: 203px;
+            height: auto;
+        }
+        &__img {
+            width: 203px;
+            height: auto;
+        }
+        &__descr {
+            width: 203px;
+            height: 84px;
+            padding: 17px 15px 23px 15px;
+            font-size: 12px;
+        }
+        &__navigation-img {
+            margin-right: 9px;
+            width: 12px;
+            height: 12px;
+        }
+        &__days {
+            font-size: 10px;
+        }
+    }
+    .steps {
+        padding-top: 51px;
+        .title_left {
+            font-size: 12px;
+            margin-left: 5%;
+        }
+        .subtitle_left {
+            font-size: 32px;
+            margin-left: 5%;
+            margin-top: 8px;
+        }
+        &__item {
+            margin-left: 5%;
+        }
+        &__rectangle {
+            width: 41px;
+            height: 41px;
+            border-radius: 9px;
+        }
+        &__icon {
+            width: 26px;
+            height: 26px;
+        }
+        &__subtitle {
+            font-size: 13px;
+        }
+        &__text {
+            font-size: 11px;
+            margin-top: 4px;
+        }
+        .card {
+            right: 11%;
+            border-radius: 17px;
+            padding: 13px 16px 20px 16px;
+            width: 239px;
+            height: 259px;
+            top: 91px;
+            &__img {
+                width: 207px;
+                border-radius: 17px;
+            }
+            &__box {
+                display: none;
+            }
+            &__subtitle {
+                margin-top: 12px;
+            }
+            &__date {
+                margin-top: 7px;
+                font-size: 11px;
+            }
+            &__navigation {
+                margin-top: 18px;
+            }
+            &__navigation-item {
+                height: 25px;
+                width: 25px;
+            }
+            &__navigation-icon {
+                width: 10px;
+                height: 10px;
+            }
+            &__footer-text {
+                font-size: 11px;
+                font-weight: 400;
+            }
+            &__footer-heart {
+                margin-left: 76px;
+            }
+        }
+    }
 }
