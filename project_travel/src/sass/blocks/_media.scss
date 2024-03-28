@@ -1,9 +1,5 @@
 @media (max-width: 1200px) {
-    .container {
-        width: 90%;
-    }
     .promo {
-        min-height: 700px;
         &__stain {
             width: 500px;
             height: 600px;
@@ -19,9 +15,6 @@
         .menu {
             font-size: 14px;
             width: 650px;
-        }
-        &__wrapper {
-            height: 634px;
         }
         &__descr {
             width: 460px;
@@ -67,9 +60,6 @@
         }
         &__button-text {
             font-size: 14px;
-        }
-        &__woomen {
-            width: 634px;
         }
         &__airplane {
             width: 94px;
@@ -480,7 +470,6 @@
 @media (max-width: 991px) {
     .promo {
         padding-top: 37px;
-        min-height: 670px;
         &__stain {
             width: 390px;
             height: 473px;
@@ -547,9 +536,6 @@
         &__button-text {
             font-size: 11px;
         }
-        &__woomen {
-            width: 61vw;
-        }
         &__airplane {
             width: 63px;
             right: 325px;
@@ -562,7 +548,6 @@
         }
     }
     .services {
-        padding-top: 0;
         .title {
             font-size: 12px;
         }
