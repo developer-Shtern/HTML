@@ -1,8 +1,5 @@
 .promo {
-    min-height: 936px;
     padding-top: 48px;
-
-    position: relative;
     width: 100%;
     &__stain {
         position: absolute;
@@ -12,11 +9,15 @@
         width: 800px;
         height: 740px;
     }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        height: 765px;
+    }
     &__descr {
-        position: absolute;
+        position: relative;
         width: 545px;
         margin-top: 112px;
-        z-index: 2;
     }
     &__header {
         color: #DF6951;
@@ -99,15 +100,19 @@
         font-weight: 400;
         cursor: pointer;
     }
+    &__box {
+        position: relative;
+        height: 764px;
+    }
     &__airplane {
         position: absolute;
-        right: 495px;
-        top: 139px;
+        right: 478px;
+        top: 99px;
     }
     &__airplane-2 {
         position: absolute;
-        right: 16px;
-        top: 193px;
+        right: 15px;
+        top: 157px;
     }
     &__woomen {
         position: absolute;

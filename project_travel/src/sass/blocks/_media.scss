@@ -18,6 +18,9 @@
             font-size: 14px;
             width: 650px;
         }
+        &__wrapper {
+            height: 634px;
+        }
         &__descr {
             width: 460px;
             margin: 97px 0px 0px 76px;
@@ -69,12 +72,12 @@
         &__airplane {
             width: 94px;
             right: 410px;
-            top: 130px;
+            top: 90px;
         }
         &__airplane-2 {
             width: 94px;
             right: 13px;
-            top: 172px;
+            top: 131px;
         }
     }
     //==============================================================================================
@@ -550,8 +553,8 @@
             font-size: 11px;
         }
         &__woomen {
-            width: 55%;
-            margin: 3vh 3vw 0 0;
+            width: 61vw;
+            margin: 1vh 1vw 0 0;
         }
         &__airplane {
             width: 63px;
