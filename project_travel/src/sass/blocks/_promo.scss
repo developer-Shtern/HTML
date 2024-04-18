@@ -11,8 +11,6 @@
     }
     &__wrapper {
         display: flex;
-        justify-content: space-between;
-        height: 765px;
     }
     &__descr {
         position: relative;
@@ -100,10 +98,6 @@
         font-weight: 400;
         cursor: pointer;
     }
-    &__box {
-        position: relative;
-        height: 764px;
-    }
     &__airplane {
         position: absolute;
         right: 478px;
@@ -117,5 +111,6 @@
     &__woomen {
         position: absolute;
         right: 0;
+        max-width: 765px;
     }
 }    
