@@ -170,10 +170,10 @@
     //==============================================================================================
 
     .steps {
-        .title_left {
+        .title_left{
             font-size: 15px;
         }
-        .subtitle_left {
+        .subtitle_left{
             font-size: 41px;
         }
         &__item {
@@ -367,7 +367,6 @@
             font-size: 22px;
             line-height: 136%;
             font-weight: 500;
-
         }
         &__divorces {
             width: 398px;
@@ -608,7 +607,7 @@
         }
         &__item {
             width: 203px;
-            height: auto;
+            height: 297px;
         }
         &__img {
             width: 203px;
@@ -851,6 +850,220 @@
                 }
             }
         }
-
     }
+    .promo {
+        &__wrapper {
+            height: 34vh;
+        }
+        &__descr {
+            margin-top: 30px;
+        }
+        &__header {
+            font-size: 10px;
+        }
+        &__subheader {
+            font-size: 45px;
+            line-height: 42px; 
+            margin-top: 16px;
+        }
+        &__decore {
+            width: 201px;
+            height: 6px;
+            top: 66px;
+            left: 124px;
+        }
+        &__woomen {
+            width: 57%;
+        }
+        &__airplane-2 {
+            right: 0%;
+        }
+    }
+    .services {
+        &__pluses {
+            display: none;
+        }
+        &__items {
+            width: 80%;
+            height: 482px;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+        } 
+        &__item {
+            background: none;
+        }
+    }
+    .destinations {
+        &__items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            height: 297px;
+            position: relative;
+            &_margin {
+                margin-top: 20px;
+            }
+        }
+        &__decore {
+            position: absolute;
+            right: -42px;
+        }
+    }
+    .steps { 
+        .card {
+            display: none;
+        }
+        .title_left {
+            text-align: center;
+        }
+        .subtitle_left {
+            text-align: center;
+        }
+        &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__rectangle {
+            margin-right: 0;
+        }
+        &__subtitle {
+            text-align: center;
+            margin-top: 20px;
+        } 
+        &__text {
+            text-align: center;
+        }
+    }
+    .testimonials {
+        .title_left-uppercase {
+            text-align: center;
+        }
+        .subtitle_left {
+            text-align: center;
+        }
+        &__circles {
+            display: none;
+        }
+        &-block {
+            position: relative;
+            margin: 0 auto;
+            top: 50px;
+        }
+    }
+    .subscribe {
+        padding-top: 95px;
+        &__wrapper {
+            height: 250px;
+            border-radius: 50px 13px 13px 13px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__divorces {
+            width: 273px;
+            left: -56px;
+
+        }
+        &__divorces-right {
+            width: 198px;
+        }
+        &__arrow {
+            width: 39px
+        }
+        &__pluses {
+            display: none;
+        }
+        &__form {
+            width: 434px;
+            input {
+                border-radius: 8px;
+                width: 349px;
+                height: 37px;
+                font-size: 11px;
+                padding-left: 41px;
+            }
+        }
+        &__mail-img {
+            left: 19px;
+            height: 13px;
+        }
+        &__button {
+            border-radius: 8px;
+            width: 84px;
+            height: 37px;
+            font-weight: 600;
+            font-size: 12px;
+            margin-left: 20px;
+        }
+    }
+   .footer {
+    &__logo {
+        font-size: 27px;
+    }
+    &__logo-desc {
+        font-size: 8px;
+    }
+    &__sub {
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    &__link {
+        font-size: 9px;
+        margin-bottom: 7px;
+    }
+    &__social-box {
+        width: 158px;
+        height: 89px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__social {
+        width: 104px;
+    }
+    &__social-link {
+        width: 26px;
+        height: 26px;
+    }
+    &__social-icon {
+        &_facebook {
+            width: 7px;
+            height: 13px;
+        }
+        &_instagram {
+            width: 14px;
+            height: 11px;
+            background: black;
+        }
+        &_twitter {
+            width: 14px;
+            height: 11px;
+        }
+    }
+    &__social-sub {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    &__mobile {
+        position: relative;
+        width: 86%;
+        height: auto;
+    }
+    &__mobile-icon {
+        width: 59px;
+        height: auto;
+    }
+    &__reserved-link {
+        margin-top: 52px;
+        font-size: 10px;
+    }
+    &__mail {
+        font-size: 10px;
+    }
+   }
 }
